@@ -25,7 +25,9 @@ export default function App() {
               >
                 XXXTENTACION
               </FixH2>
-              <Simage layoutId="image sec" src={xxx} alt="" />
+              <Link to="/">
+                <Simage layoutId="image sec" src={xxx} alt="" />
+              </Link>
             </firstDiv>
           )}
         </AnimatePresence>
